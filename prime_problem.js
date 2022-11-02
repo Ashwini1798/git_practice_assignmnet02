@@ -1,7 +1,7 @@
-function checkPrime(num){
+function checkPrime(Number){
   let factor=0
   for(let i=2; i<=num; i++){
-    if(num%i==0){
+    if(Number%i==0){
       factor++}
     }
     if(factor==2){
@@ -13,7 +13,7 @@ function checkPrime(num){
 }
 let ans=checkPrime(13)
 if(ans==true){
-    console.log("Prime number")
+    console.log("Prime Number")
   }else{
-    console.log("Not prime number")
+    console.log("Not prime Number")
   }
