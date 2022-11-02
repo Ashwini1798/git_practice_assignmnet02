@@ -1,9 +1,9 @@
 
 function checkPrime(Number){
-  let factor=0
+  let factors=0
   for(let i=2; i<=num; i++){
     if(Number%i==0){
-      factor++
+      factors++
     }
     if(factors==2){
       return true;
